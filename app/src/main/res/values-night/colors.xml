@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark theme versions of your colors -->
+    <color name="colorPrimary">#1B441B</color> <!-- Darker green -->
+    <color name="colorPrimaryVariant">#123012</color> <!-- Even darker -->
+    <color name="colorOnPrimary">#E0E0E0</color> <!-- Slightly dimmer white -->
+    <color name="colorSecondary">#40591E</color> <!-- Darker secondary -->
+    <color name="colorSecondaryVariant">#2E4215</color> <!-- Darker variant -->
+    <color name="colorOnSecondary">#E0E0E0</color> <!-- Dimmer white -->
+    <color name="colorBackground">#121212</color> <!-- Dark background -->
+</resources>
