@@ -1,6 +1,6 @@
 plugins {
-    id("com.android.application")
-    id("org.jetbrains.kotlin.android")
+    id("com.android.application") version "8.2.0"
+    id("org.jetbrains.kotlin.android") version "1.9.22"
 }
 
 android {
@@ -33,12 +33,4 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
     implementation("androidx.lifecycle:lifecycle-runtime-compose:2.7.0")
-}
-defaultConfig {
-    applicationId = "com.example.landwapp"
-    minSdk = 26
-    targetSdk = 34
-    versionCode = 1
-    versionName = "1.0"
-    // ...
 }

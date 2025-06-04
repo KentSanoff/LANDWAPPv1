@@ -1,12 +1,12 @@
-pluginmanagement {
+pluginManagement {
     repositories {
         google()
         mavenCentral()
         gradlePluginPortal()
     }
 }
-dependencyResolutionmanagement {
-    repositoriesmode.set(RepositoriesMode.prefer_project)
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_PROJECT)
     repositories {
         google()
         mavenCentral()
@@ -14,4 +14,4 @@ dependencyResolutionmanagement {
 }
 
 rootProject.name = "landwapp"
-include("app") //
+include(":app")
