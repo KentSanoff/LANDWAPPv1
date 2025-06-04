@@ -1,12 +1,14 @@
 package com.example.landwapp.feldstuecke
 
 import com.example.landwapp.data.model.Feldstueck
-import com.example.landwapp.feldstuecke.FeldstueckDao   // <--- Import für Dao
+import com.example.landwapp.feldstuecke.FeldstueckDao
 import kotlinx.coroutines.flow.Flow
 
 class FeldstueckRepository(private val feldstueckDao: FeldstueckDao) {
 
     val alleFeldstuecke: Flow<List<Feldstueck>> = feldstueckDao.getAllFeldstuecke()
+
+    suspend fun getAll(): List<Feldstueck> = feldstueckDao.getAllFeldstueckeList()
 
     suspend fun getFeldstueckById(id: Int): Feldstueck? {
         return feldstueckDao.getFeldstueckById(id)
